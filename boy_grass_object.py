@@ -30,7 +30,7 @@ class Ball:
         self.frame = random.randint(0, 7)
         self.image1 = load_image('ball21x21.png')
         self.image2 = load_image('ball41x41.png')
-        self.speed = random.randint(5, 10)
+        self.speed = random.randint(5, 20)
         self.ballSize = random.randint(0,2)
 
     def update(self):
